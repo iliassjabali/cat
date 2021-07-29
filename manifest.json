@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CAT Generator ",
+  "name": "Generetes cat pictures",
   "icons": [
     {
       "src": "favicon.ico",
