@@ -14,7 +14,7 @@ export default function Cat(props) {
   const url = `https://cataas.com/cat/${type}/says/${text}?s=${fontSize}&c=${color}&filter=${filter}&width=${width}&height=${height}&uniqueNum=${uniqueNum}`;
 
   return (
-    <img src={url} alt= 'Cat'/>
+    <img width="500" height="600" src={url} alt= 'Cat'/>
   )
 
 }
