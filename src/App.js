@@ -3,8 +3,10 @@ import Cat from "./cat.js";
 
 function App() {
   return (
+    /*<div align= 'center'>*/
     <div>
-      <Cat />
+      <h1 >Hello!</h1>
+      <Cat/>
     </div>
   );
 }
