@@ -12,7 +12,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-//TODO LIST
-// * fix the CSS
-// * Track thee usage using firebase
-// * button to refresh the page and/or auto refresh the page

@@ -18,3 +18,6 @@ export default function Cat(props) {
   )
 
 }
+//TODO LIST
+// * fix the CSS
+// * Track thee usage using firebase
