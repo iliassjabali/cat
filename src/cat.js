@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Cat(props) {
+export default function Cat(props) {
   const { type = '',
           text = '%20',
           fontSize = '50',
@@ -14,9 +14,10 @@ function Cat(props) {
   const url = `https://cataas.com/cat/${type}/says/${text}?s=${fontSize}&c=${color}&filter=${filter}&width=${width}&height=${height}&uniqueNum=${uniqueNum}`;
 
   return (
-    <img src={url} />
+    <img width="500" height="600" src={url} alt= 'Cat'/>
   )
 
 }
-
-export default Cat
+//TODO LIST
+// * fix the CSS
+// * Track thee usage using firebase
