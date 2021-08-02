@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Cat(props) {
+export default function Cat(props) {
   const { type = '',
           text = '%20',
           fontSize = '50',
@@ -18,5 +18,3 @@ function Cat(props) {
   )
 
 }
-
-export default Cat
