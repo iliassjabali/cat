@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-      <div align="center">
+
+
+function Index() {
+  const element = (
+    <React.StrictMode>
+      <div >
           <App/>
       </div>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+  </React.StrictMode>
+  );
+  ReactDOM.render(element, document.getElementById('root'));
+}
+setInterval(Index, 10000);
