@@ -3,6 +3,8 @@ import Cat from "./cat.js";
 // import '.index.css'
 
 export default function App() {
+    
+
     return (
         <div align="center"  height ="window.innerHeight" width= "window.innerWidth">
             <Cat width="600" />
